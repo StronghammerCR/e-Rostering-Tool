@@ -1,0 +1,15 @@
+/* src/index.css */
+
+/* 1. Tailwind’s base reset and typography */
+@tailwind base;
+
+/* 2. Any component-level styles you want to add on top of Tailwind */
+@tailwind components;
+
+/* 3. Tailwind’s utility classes */
+@tailwind utilities;
+
+/* 4. (Optional) Your own global overrides */
+body {
+  font-family: system-ui, sans-serif;
+}
